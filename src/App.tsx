@@ -1,7 +1,12 @@
 import './App.scss';
+import { BookingForm } from './layouts/BookingForm/BookingForm';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <BookingForm />
+    </>
+  );
 }
 
 export default App;

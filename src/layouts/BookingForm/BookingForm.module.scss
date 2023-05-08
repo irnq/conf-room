@@ -1,0 +1,32 @@
+@import '../../styles/abstracts.scss';
+
+.layout {
+  padding: 3rem 4rem;
+  max-width: 80rem;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.form {
+  border: 1px solid $color-grey;
+  border-radius: 5px;
+  padding: 2rem;
+  max-width: 50rem;
+}
+
+.btnContainer {
+  display: flex;
+  gap: 2rem;
+  justify-content: end;
+}
+
+.btn {
+  display: inline-block;
+  margin-left: 2rem;
+  * {
+    font-size: 2rem;
+    line-height: 2.2rem;
+  }
+}

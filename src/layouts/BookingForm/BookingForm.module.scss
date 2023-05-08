@@ -1,7 +1,7 @@
 @import '../../styles/abstracts.scss';
 
 .layout {
-  padding: 3rem 4rem;
+  padding: 1rem 2rem;
   max-width: 80rem;
 }
 
@@ -13,12 +13,12 @@
   border: 1px solid $color-grey;
   border-radius: 5px;
   padding: 2rem;
+  padding-bottom: 0;
   max-width: 50rem;
 }
 
 .btnContainer {
   display: flex;
-  gap: 2rem;
   justify-content: end;
 }
 
